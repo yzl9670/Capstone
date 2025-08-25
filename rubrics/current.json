@@ -1,0 +1,53 @@
+{
+  "course_name": "INQU 5022 — Proposal (15 pts)",
+  "total_points": 15,
+  "scale": [3, 2, 1],
+  "labels": ["Excellent", "Satisfactory", "Needs Improvement"],
+  "criteria": [
+    {
+      "name": "Process & Product Justification",
+      "desc": "Clarity on chosen process/product, uses, current & projected demand; rationale for process selection and comparison to alternatives.",
+      "levels": {
+        "3": "Explains state-of-the-art process and product clearly; justifies product with uses and credible US/global demand; compares main process to alternatives with reasons for selection.",
+        "2": "Provides most elements (uses and some demand) and a basic comparison, but rationale or data depth is limited or partially cited.",
+        "1": "Missing demand or uses; little to no comparison/justification; vague or unsupported claims."
+      }
+    },
+    {
+      "name": "Base PFD & Unit Operations",
+      "desc": "Process Flow Diagram of the original process; key unit operations and any reactions described.",
+      "levels": {
+        "3": "Contains a complete, readable PFD for the base process; identifies 3–5 major unit ops (excl. pumps/compressors) and any reactions; descriptions are accurate.",
+        "2": "PFD present but missing some streams/units or brief/incomplete descriptions.",
+        "1": "No PFD or an unusable/incorrect diagram; unit operations not identified or misrepresented."
+      }
+    },
+    {
+      "name": "Thermodynamic Model & Simulation Plan",
+      "desc": "Statement of Aspen Plus use; thermodynamic model choice and justification with data/model comparison.",
+      "levels": {
+        "3": "States Aspen Plus will be used; selects an appropriate thermo model and justifies it with graphs comparing experimental data to chosen and alternate models.",
+        "2": "States Aspen Plus and model; partial or light justification (limited comparison or missing plots).",
+        "1": "No clear plan for Aspen; model not justified or missing."
+      }
+    },
+    {
+      "name": "Economic Viability (Max Profit) & Data Sources",
+      "desc": "Calculation of maximum possible profit using current bulk chemical costs; references provided.",
+      "levels": {
+        "3": "Performs a defensible max-profit estimate using current bulk prices; shows key assumptions, references cost sources, and indicates viability.",
+        "2": "Provides a profit estimate but with unclear assumptions, older prices, or weak sourcing.",
+        "1": "No estimate or non-reproducible numbers; lacks current costs and references."
+      }
+    },
+    {
+      "name": "Improvements, Appendices & Professionalism",
+      "desc": "Proposed improvements; appendices (economic calcs/kinetics if applicable, Gantt chart); formatting, grammar, aesthetics, and overall clarity.",
+      "levels": {
+        "3": "Proposes specific, technically motivated improvements; includes relevant appendices (calcs/kinetics if applicable) and a Gantt chart with responsibilities; writing is polished, formatted per spec, and professional.",
+        "2": "Improvements mentioned but high-level; appendices or Gantt are partial; minor issues in formatting/grammar.",
+        "1": "Vague or missing improvements; key appendices absent; poor formatting/grammar hinders readability."
+      }
+    }
+  ]
+}
